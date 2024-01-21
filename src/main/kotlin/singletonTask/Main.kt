@@ -21,7 +21,7 @@ fun main() {
     } else {
         val calculator = DemoCalculator()
         Journal.writeToJournal(JournalMessage(MessageType.INF,"A calculator was created"))
-        var result = calculator.division(a, b)
+        calculator.division(a, b)
     }
     Journal.writeToJournal(JournalMessage(MessageType.INF, "Program is finished"))
 }
