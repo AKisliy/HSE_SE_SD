@@ -6,7 +6,7 @@ services:
     environment:
       POSTGRES_DB: "userservice"
       POSTGRES_USER: "alexeykiselev"
-      POSTGRES_PASSWORD: "kisliy12"
+      POSTGRES_PASSWORD: "kisliy"
       PGDATA: "/var/lib/postgresql/data/pgdata"
     volumes:
       - /Users/alexeykiselev/Docker/UserService/init-script:/docker-entrypoint-initdb.d
